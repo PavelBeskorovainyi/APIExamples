@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sHB-np-xj0">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ExchangeTableViewTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="s3Z-hh-q9W">
+                                <rect key="frame" x="157" y="360.5" width="100" height="175"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="In4-bj-BjY">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="Pzm-u0-ReJ"/>
+                                            <constraint firstAttribute="height" constant="50" id="qSl-1S-9s6"/>
+                                        </constraints>
+                                        <state key="normal" title="Exchange"/>
+                                        <connections>
+                                            <segue destination="V7s-vU-mwX" kind="show" id="M0I-cu-Gtl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D9Y-vT-AjQ">
+                                        <rect key="frame" x="0.0" y="125" width="100" height="50"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="FA0-II-oDT"/>
+                                        </constraints>
+                                        <state key="normal" title="Weather"/>
+                                        <connections>
+                                            <segue destination="l4c-hQ-xNh" kind="show" id="Skv-Y5-FqL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="s3Z-hh-q9W" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Eff-Xy-Cru"/>
+                            <constraint firstItem="s3Z-hh-q9W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eVh-IN-qr4"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="27k-ct-k3a"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="77.678571428571431"/>
+        </scene>
+        <!--ExchangeTableViewController-->
+        <scene sceneID="dEs-wv-Ils">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="ExchangeTableViewController" storyboardName="Exchange" referencedIdentifier="ExchangeTableViewController" id="V7s-vU-mwX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="oK8-h8-Bn6"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qBL-y3-Tv6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1707" y="-66"/>
+        </scene>
+        <!--WeatherViewController-->
+        <scene sceneID="Fkt-Po-o13">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Weather" storyboardName="Weather" referencedIdentifier="WeatherViewController" id="l4c-hQ-xNh" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="MDp-d7-OmT"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fNQ-9Y-9iK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1669" y="176"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cRC-A3-hKx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sHB-np-xj0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CTI-1C-TmE">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="JGm-k0-ZDY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ui5-dX-ivL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="77.678571428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

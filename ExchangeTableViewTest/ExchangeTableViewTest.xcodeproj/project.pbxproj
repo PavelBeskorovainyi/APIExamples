@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BD4570E343F27E5A444AB06 /* Pods_ExchangeTableViewTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5439B029AEDC3859F14289 /* Pods_ExchangeTableViewTest.framework */; };
+		D01AA71F25D3278000E97ACF /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA71E25D3278000E97ACF /* FetchData.swift */; };
+		D01AA72A25D32FE900E97ACF /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA72925D32FE900E97ACF /* Provider.swift */; };
+		D01AA73125D3474900E97ACF /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA73025D3474900E97ACF /* Cities.swift */; };
+		D01AA73425D34DE000E97ACF /* Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA73325D34DE000E97ACF /* Units.swift */; };
+		D01AA73725D34DF600E97ACF /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA73625D34DF600E97ACF /* Language.swift */; };
+		D01AA73E25D34ECD00E97ACF /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA73D25D34ECD00E97ACF /* WeatherViewController.swift */; };
+		D041CB5C25C755B9002C3773 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041CB5B25C755B9002C3773 /* WeatherModel.swift */; };
+		D0522B9025C05A4B00324E7C /* Exchange.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0522B8F25C05A4B00324E7C /* Exchange.storyboard */; };
+		D0522B9325C05A8D00324E7C /* ExchangeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0522B9225C05A8D00324E7C /* ExchangeTableViewController.swift */; };
+		D0522B9B25C05E0A00324E7C /* ExchangeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0522B9925C05E0A00324E7C /* ExchangeTableViewCell.swift */; };
+		D0522B9C25C05E0A00324E7C /* ExchangeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0522B9A25C05E0A00324E7C /* ExchangeTableViewCell.xib */; };
+		D0522B9F25C0631500324E7C /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0522B9E25C0631500324E7C /* CurrencyModel.swift */; };
+		D06A5D7025C04ED600820CC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A5D6F25C04ED600820CC4 /* AppDelegate.swift */; };
+		D06A5D7225C04ED600820CC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A5D7125C04ED600820CC4 /* SceneDelegate.swift */; };
+		D06A5D7425C04ED600820CC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A5D7325C04ED600820CC4 /* ViewController.swift */; };
+		D06A5D7725C04ED600820CC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06A5D7525C04ED600820CC4 /* Main.storyboard */; };
+		D06A5D7925C04ED700820CC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06A5D7825C04ED700820CC4 /* Assets.xcassets */; };
+		D06A5D7C25C04ED700820CC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06A5D7A25C04ED700820CC4 /* LaunchScreen.storyboard */; };
+		D081EBD525C807390061F358 /* Weather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D081EBD425C807390061F358 /* Weather.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E5439B029AEDC3859F14289 /* Pods_ExchangeTableViewTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExchangeTableViewTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE78EA871717B7948A280CA /* Pods-ExchangeTableViewTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeTableViewTest.release.xcconfig"; path = "Target Support Files/Pods-ExchangeTableViewTest/Pods-ExchangeTableViewTest.release.xcconfig"; sourceTree = "<group>"; };
+		BE3EC2C480B97D1404146A47 /* Pods-ExchangeTableViewTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeTableViewTest.debug.xcconfig"; path = "Target Support Files/Pods-ExchangeTableViewTest/Pods-ExchangeTableViewTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D01AA71E25D3278000E97ACF /* FetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
+		D01AA72925D32FE900E97ACF /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		D01AA73025D3474900E97ACF /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+		D01AA73325D34DE000E97ACF /* Units.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Units.swift; sourceTree = "<group>"; };
+		D01AA73625D34DF600E97ACF /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		D01AA73D25D34ECD00E97ACF /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		D041CB5B25C755B9002C3773 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		D0522B8F25C05A4B00324E7C /* Exchange.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Exchange.storyboard; sourceTree = "<group>"; };
+		D0522B9225C05A8D00324E7C /* ExchangeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeTableViewController.swift; sourceTree = "<group>"; };
+		D0522B9925C05E0A00324E7C /* ExchangeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeTableViewCell.swift; sourceTree = "<group>"; };
+		D0522B9A25C05E0A00324E7C /* ExchangeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExchangeTableViewCell.xib; sourceTree = "<group>"; };
+		D0522B9E25C0631500324E7C /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		D06A5D6C25C04ED600820CC4 /* ExchangeTableViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeTableViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06A5D6F25C04ED600820CC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D06A5D7125C04ED600820CC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D06A5D7325C04ED600820CC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D06A5D7625C04ED600820CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D06A5D7825C04ED700820CC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D06A5D7B25C04ED700820CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D06A5D7D25C04ED700820CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D081EBD425C807390061F358 /* Weather.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weather.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D06A5D6925C04ED600820CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD4570E343F27E5A444AB06 /* Pods_ExchangeTableViewTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00704D7ADA6ED77B9F6AF0AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E5439B029AEDC3859F14289 /* Pods_ExchangeTableViewTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFC0BB6932B515A3774449FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE3EC2C480B97D1404146A47 /* Pods-ExchangeTableViewTest.debug.xcconfig */,
+				3EE78EA871717B7948A280CA /* Pods-ExchangeTableViewTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D01AA71D25D3273300E97ACF /* MOYA TEST */ = {
+			isa = PBXGroup;
+			children = (
+				D0E6450D25D408FA00A45994 /* Network */,
+				D01AA73C25D34E8100E97ACF /* UI */,
+				D01AA72F25D3473400E97ACF /* Enums */,
+			);
+			path = "MOYA TEST";
+			sourceTree = "<group>";
+		};
+		D01AA72F25D3473400E97ACF /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				D01AA73025D3474900E97ACF /* Cities.swift */,
+				D01AA73325D34DE000E97ACF /* Units.swift */,
+				D01AA73625D34DF600E97ACF /* Language.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		D01AA73C25D34E8100E97ACF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D01AA73D25D34ECD00E97ACF /* WeatherViewController.swift */,
+				D081EBD425C807390061F358 /* Weather.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D041CB5A25C75572002C3773 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				D01AA71D25D3273300E97ACF /* MOYA TEST */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		D0522B8E25C05A1C00324E7C /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				D081EBDA25C807950061F358 /* TableView */,
+				D0522B8F25C05A4B00324E7C /* Exchange.storyboard */,
+				D0522B9225C05A8D00324E7C /* ExchangeTableViewController.swift */,
+				D0522B9E25C0631500324E7C /* CurrencyModel.swift */,
+			);
+			path = Exchange;
+			sourceTree = "<group>";
+		};
+		D06A5D6325C04ED600820CC4 = {
+			isa = PBXGroup;
+			children = (
+				D06A5D6E25C04ED600820CC4 /* ExchangeTableViewTest */,
+				D06A5D6D25C04ED600820CC4 /* Products */,
+				BFC0BB6932B515A3774449FB /* Pods */,
+				00704D7ADA6ED77B9F6AF0AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D06A5D6D25C04ED600820CC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D06A5D6C25C04ED600820CC4 /* ExchangeTableViewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D06A5D6E25C04ED600820CC4 /* ExchangeTableViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				D06A5D6F25C04ED600820CC4 /* AppDelegate.swift */,
+				D06A5D7125C04ED600820CC4 /* SceneDelegate.swift */,
+				D06A5D7325C04ED600820CC4 /* ViewController.swift */,
+				D06A5D7525C04ED600820CC4 /* Main.storyboard */,
+				D041CB5A25C75572002C3773 /* Weather */,
+				D0522B8E25C05A1C00324E7C /* Exchange */,
+				D06A5D7825C04ED700820CC4 /* Assets.xcassets */,
+				D06A5D7A25C04ED700820CC4 /* LaunchScreen.storyboard */,
+				D06A5D7D25C04ED700820CC4 /* Info.plist */,
+			);
+			path = ExchangeTableViewTest;
+			sourceTree = "<group>";
+		};
+		D081EBDA25C807950061F358 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				D0522B9A25C05E0A00324E7C /* ExchangeTableViewCell.xib */,
+				D0522B9925C05E0A00324E7C /* ExchangeTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		D0E6450D25D408FA00A45994 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D041CB5B25C755B9002C3773 /* WeatherModel.swift */,
+				D01AA71E25D3278000E97ACF /* FetchData.swift */,
+				D01AA72925D32FE900E97ACF /* Provider.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D06A5D6B25C04ED600820CC4 /* ExchangeTableViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06A5D8025C04ED700820CC4 /* Build configuration list for PBXNativeTarget "ExchangeTableViewTest" */;
+			buildPhases = (
+				BDA2A9F6379BF40FF71A8EB8 /* [CP] Check Pods Manifest.lock */,
+				D06A5D6825C04ED600820CC4 /* Sources */,
+				D06A5D6925C04ED600820CC4 /* Frameworks */,
+				D06A5D6A25C04ED600820CC4 /* Resources */,
+				577D192005D1E15A7312434E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExchangeTableViewTest;
+			productName = ExchangeTableViewTest;
+			productReference = D06A5D6C25C04ED600820CC4 /* ExchangeTableViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D06A5D6425C04ED600820CC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D06A5D6B25C04ED600820CC4 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = D06A5D6725C04ED600820CC4 /* Build configuration list for PBXProject "ExchangeTableViewTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D06A5D6325C04ED600820CC4;
+			productRefGroup = D06A5D6D25C04ED600820CC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D06A5D6B25C04ED600820CC4 /* ExchangeTableViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D06A5D6A25C04ED600820CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06A5D7C25C04ED700820CC4 /* LaunchScreen.storyboard in Resources */,
+				D081EBD525C807390061F358 /* Weather.storyboard in Resources */,
+				D0522B9025C05A4B00324E7C /* Exchange.storyboard in Resources */,
+				D06A5D7925C04ED700820CC4 /* Assets.xcassets in Resources */,
+				D06A5D7725C04ED600820CC4 /* Main.storyboard in Resources */,
+				D0522B9C25C05E0A00324E7C /* ExchangeTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		577D192005D1E15A7312434E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExchangeTableViewTest/Pods-ExchangeTableViewTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExchangeTableViewTest/Pods-ExchangeTableViewTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExchangeTableViewTest/Pods-ExchangeTableViewTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDA2A9F6379BF40FF71A8EB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExchangeTableViewTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D06A5D6825C04ED600820CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01AA73425D34DE000E97ACF /* Units.swift in Sources */,
+				D01AA73E25D34ECD00E97ACF /* WeatherViewController.swift in Sources */,
+				D01AA73125D3474900E97ACF /* Cities.swift in Sources */,
+				D01AA73725D34DF600E97ACF /* Language.swift in Sources */,
+				D06A5D7425C04ED600820CC4 /* ViewController.swift in Sources */,
+				D01AA71F25D3278000E97ACF /* FetchData.swift in Sources */,
+				D06A5D7025C04ED600820CC4 /* AppDelegate.swift in Sources */,
+				D0522B9F25C0631500324E7C /* CurrencyModel.swift in Sources */,
+				D041CB5C25C755B9002C3773 /* WeatherModel.swift in Sources */,
+				D0522B9325C05A8D00324E7C /* ExchangeTableViewController.swift in Sources */,
+				D01AA72A25D32FE900E97ACF /* Provider.swift in Sources */,
+				D0522B9B25C05E0A00324E7C /* ExchangeTableViewCell.swift in Sources */,
+				D06A5D7225C04ED600820CC4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D06A5D7525C04ED600820CC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06A5D7625C04ED600820CC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D06A5D7A25C04ED700820CC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06A5D7B25C04ED700820CC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D06A5D7E25C04ED700820CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D06A5D7F25C04ED700820CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D06A5D8125C04ED700820CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE3EC2C480B97D1404146A47 /* Pods-ExchangeTableViewTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRSAMZW6G9;
+				INFOPLIST_FILE = ExchangeTableViewTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PavelBeskorovainyi.ExchangeTableViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D06A5D8225C04ED700820CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE78EA871717B7948A280CA /* Pods-ExchangeTableViewTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRSAMZW6G9;
+				INFOPLIST_FILE = ExchangeTableViewTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PavelBeskorovainyi.ExchangeTableViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D06A5D6725C04ED600820CC4 /* Build configuration list for PBXProject "ExchangeTableViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06A5D7E25C04ED700820CC4 /* Debug */,
+				D06A5D7F25C04ED700820CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06A5D8025C04ED700820CC4 /* Build configuration list for PBXNativeTarget "ExchangeTableViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06A5D8125C04ED700820CC4 /* Debug */,
+				D06A5D8225C04ED700820CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D06A5D6425C04ED600820CC4 /* Project object */;
+}
